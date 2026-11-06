@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FCFBF8">
+<meta name="description" content="gogoweru: пять игр на Unity для Windows и разработка игр на заказ. Скриншоты из самих сборок, описания и форма заявки.">
+<title>gogoweru: игры и разработка на заказ</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#games">Перейти к играм</a>
+
+<header class="header">
+  <div class="wrap header-in">
+    <a class="brand" href="#top" id="top">gogoweru<span>.</span></a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#games">Игры</a>
+      <a href="#services">Заказ</a>
+      <a href="#process">Как работаем</a>
+      <a href="#order">Связаться</a>
+    </nav>
+    <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" hidden aria-label="Мобильная навигация">
+    <a href="#games">Игры</a>
+    <a href="#services">Заказ</a>
+    <a href="#process">Как работаем</a>
+    <a href="#order">Связаться</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow">Инди-студия на Unity</p>
+      <h1>Пять маленьких игр и <span class="accent">ваша</span> следующая</h1>
+      <p class="hero-lead">Я gogoweru, разработчик на Unity. Ниже пять игр, которые я сделал: гонка, где вы крутите руль, курьер в пустыне, ферма, охота Лешего и офис с зарплатой. Если понравился стиль, могу сделать игру под вашу идею.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#order">Обсудить проект</a>
+        <a class="btn btn-ghost" href="#games">Смотреть игры</a>
+      </div>
+      <ul class="hero-facts">
+        <li><b>5</b> игр</li>
+        <li><b>Unity</b> и Windows</li>
+        <li><b>Siberian Game Jam 2026</b>, первая из них</li>
+      </ul>
+    </div>
+    <figure class="hero-shot">
+      <img src="assets/games/krutoi-3.webp" alt="Крутой Поворот: машина едет по зимней трассе, камера 06 из 12, собрано 4 тыквы" width="1568" height="980">
+      <figcaption>Крутой Поворот, геймплей</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="games" id="games">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Игры</h2>
+      <p>Скриншоты сняты из самих сборок Windows. Выберите кадр в карточке, чтобы посмотреть его крупнее.</p>
+    </div>
+
+    <div class="filters" role="group" aria-label="Фильтр игр по жанру">
+      <button type="button" class="chip is-active" data-filter="all">Все</button>
+      <button type="button" class="chip" data-filter="race">Гонки</button>
+      <button type="button" class="chip" data-filter="adventure">Приключения</button>
+      <button type="button" class="chip" data-filter="sim">Симулятор</button>
+      <button type="button" class="chip" data-filter="horror">Хоррор</button>
+      <button type="button" class="chip" data-filter="office">Офис</button>
+    </div>
+
+    <!-- Крутой Поворот -->
+    <article class="game-card" id="krutoi" data-genre="race">
+      <div class="gallery" data-gallery>
+        <button class="g-main" type="button" data-lightbox aria-label="Увеличить кадр игры Крутой Поворот">
+          <img src="assets/games/krutoi-1.webp" alt="Крутой Поворот: главное меню, фиолетовая машина и тыквы на снежной трассе" data-main-img>
+          <span class="g-caption" data-caption>Главное меню</span>
+        </button>
+        <div class="g-thumbs" role="group" aria-label="Кадры игры Крутой Поворот">
+          <button type="button" class="is-active" data-full="assets/games/krutoi-1.webp" data-alt="Крутой Поворот: главное меню" data-cap="Главное меню"><img src="assets/games/krutoi-1.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/krutoi-2.webp" data-alt="Крутой Поворот: настройки звука" data-cap="Настройки: музыка, эффекты, окружение"><img src="assets/games/krutoi-2.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/krutoi-3.webp" data-alt="Крутой Поворот: геймплей с камеры наблюдения" data-cap="Геймплей: камера 06 из 12, таймер и счёт тыкв"><img src="assets/games/krutoi-3.webp" alt="" loading="lazy"></button>
+        </div>
+      </div>
+      <div class="g-info">
+        <div class="tags"><span>Гонки</span><span>Unity 3D</span><span>Windows</span><span>Siberian Game Jam 2026</span></div>
+        <h3>Крутой Поворот</h3>
+        <p class="tagline">Ты руль. Машина едет сама, а тебе нужно успеть повернуть.</p>
+        <p>Команда «ЗамороJAMные» приглашает на гоночную трансляцию. Вы не пилот, а оператор руля: автомобиль идёт по трассе на автопилоте, камеры сами меняют ракурс, и вам нужно вовремя и в нужную сторону повернуть, чтобы войти в поворот.</p>
+        <ul class="feats">
+          <li><b>Без газа и тормоза.</b> Только реакция и чувство поворота.</li>
+          <li><b>Камеры меняются.</b> Ракурс сменился, а сообразить, куда крутить, нужно сразу.</li>
+          <li><b>Тыквы-навигаторы.</b> Они показывают идеальную траекторию и служат валютой для новых рулей.</li>
+          <li><b>Мягкие ошибки.</b> Столкнулись с отбойником, машина респавнится, вы теряете пару тыкв.</li>
+        </ul>
+        <p class="controls">A / D или стрелки: руль. ЛКМ и мышь: руль. R: толкнуть назад. Esc: пауза.</p>
+        <p class="note">Сделано за 72 часа на Siberian Game Jam 2026. Тема: «Камеры наблюдения». Элемент: «Тыква».</p>
+        <div class="card-cta">
+          <button class="btn btn-primary" type="button" data-similar="Крутой Поворот">Заказать похожую</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- BORIK -->
+    <article class="game-card" id="borik" data-genre="adventure">
+      <div class="gallery" data-gallery>
+        <button class="g-main" type="button" data-lightbox aria-label="Увеличить кадр игры BORIK">
+          <img src="assets/games/borik-1.webp" alt="BORIK: главное меню, зелёный робот в пустыне среди пальм и камней" data-main-img>
+          <span class="g-caption" data-caption>Главное меню</span>
+        </button>
+        <div class="g-thumbs" role="group" aria-label="Кадры игры BORIK">
+          <button type="button" class="is-active" data-full="assets/games/borik-1.webp" data-alt="BORIK: главное меню в пустыне" data-cap="Главное меню"><img src="assets/games/borik-1.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/borik-2.webp" data-alt="BORIK: сундук с грузом и подсказка E" data-cap="Груз найден. Клавиша E, чтобы забрать"><img src="assets/games/borik-2.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/borik-3.webp" data-alt="BORIK: поездка по пустыне между камнями и пальмами" data-cap="Дорога не идёт прямо: камни, горы, солнце"><img src="assets/games/borik-3.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/borik-story.webp" data-alt="BORIK: карточка истории игры" data-cap="История из самой игры"><img src="assets/games/borik-story.webp" alt="" loading="lazy"></button>
+        </div>
+      </div>
+      <div class="g-info">
+        <div class="tags"><span>Приключение</span><span>Unity 3D</span><span>Windows</span></div>
+        <h3>BORIK: курьер пустыни</h3>
+        <p class="tagline">Доставь груз, заработай звёзды, стань легендой пустыни.</p>
+        <p>Вы робот Боби, курьер посреди бескрайней пустыни. Нужно забрать груз и вернуть его на точку старта. Дорога не идёт напрямик: горы, стены и палящее солнце стоят между вами и наградой.</p>
+        <ul class="feats">
+          <li><b>1. Ходок.</b> Медленно, но надёжно. Тащит груз по пескам.</li>
+          <li><b>2. Мотоцикл.</b> Быстро, но груз на нём не удержишь.</li>
+          <li><b>3. Полёт.</b> Пара секунд свободы над камнями.</li>
+        </ul>
+        <p class="controls">E: забрать груз. 1 / 2 / 3: режимы движения.</p>
+        <div class="card-cta">
+          <button class="btn btn-primary" type="button" data-similar="BORIK: курьер пустыни">Заказать похожую</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Ферма -->
+    <article class="game-card" id="ferma" data-genre="sim">
+      <div class="gallery" data-gallery>
+        <button class="g-main" type="button" data-lightbox aria-label="Увеличить кадр игры Ферма">
+          <img src="assets/games/ferma-1.webp" alt="Ферма: скелет Костян у красного амбара и тюков сена" data-main-img>
+          <span class="g-caption" data-caption>Костян у амбара</span>
+        </button>
+        <div class="g-thumbs" role="group" aria-label="Кадры игры Ферма">
+          <button type="button" class="is-active" data-full="assets/games/ferma-1.webp" data-alt="Ферма: скелет Костян у амбара" data-cap="Костян у амбара"><img src="assets/games/ferma-1.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/ferma-2.webp" data-alt="Ферма: амбар, пугало и первая грядка моркови" data-cap="Поле 1 из 36 уже занято"><img src="assets/games/ferma-2.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/ferma-3.webp" data-alt="Ферма: магазин улучшений" data-cap="Магазин улучшений: вес, цена, скорость роста"><img src="assets/games/ferma-3.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/ferma-4.webp" data-alt="Ферма: ящик продажи урожая" data-cap="Точка «Продажа»: продайте весь урожай сразу"><img src="assets/games/ferma-4.webp" alt="" loading="lazy"></button>
+        </div>
+      </div>
+      <div class="g-info">
+        <div class="tags"><span>Симулятор</span><span>Unity 3D</span><span>Windows</span></div>
+        <h3>Ферма</h3>
+        <p class="tagline">Скелет Костян потерял зрение. Поможете ему вырастить морковь?</p>
+        <p>Хозяин фермы, скелет Костян, больше не видит и сам не может вырастить морковь. Амбар стоит, поля пустуют. Может, вы станете его глазами и руками.</p>
+        <ul class="feats">
+          <li><b>Полный цикл.</b> Купите семена, посадите, дождитесь роста, продайте урожай в ящик «Продажа».</li>
+          <li><b>Экономика на экране.</b> Монеты, семена, инвентарь и число занятых полей.</li>
+          <li><b>Улучшения.</b> Вес моркови, цена продажи, скорость роста и новые поля, до 36 грядок.</li>
+        </ul>
+        <p class="controls">На старте 110 монет. Покупка и продажа у табличек.</p>
+        <div class="card-cta">
+          <button class="btn btn-primary" type="button" data-similar="Ферма">Заказать похожую</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Лесная полянка -->
+    <article class="game-card" id="leshi" data-genre="horror">
+      <div class="gallery" data-gallery>
+        <button class="g-main" type="button" data-lightbox aria-label="Увеличить кадр игры Лесная полянка">
+          <img src="assets/games/leshi-2.webp" alt="Лесная полянка: Леший с рогами смотрит, как путник бежит по ночному лесу" data-main-img>
+          <span class="g-caption" data-caption>Охота началась</span>
+        </button>
+        <div class="g-thumbs" role="group" aria-label="Кадры игры Лесная полянка">
+          <button type="button" class="is-active" data-full="assets/games/leshi-2.webp" data-alt="Лесная полянка: Леший преследует путника" data-cap="Охота началась"><img src="assets/games/leshi-2.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/leshi-1.webp" data-alt="Лесная полянка: древнее дерево в ночном лесу" data-cap="Священное дерево"><img src="assets/games/leshi-1.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/leshi-3.webp" data-alt="Лесная полянка: путник повержен, Леший стоит над ним" data-cap="Очередная жизнь для Огня Жизни"><img src="assets/games/leshi-3.webp" alt="" loading="lazy"></button>
+        </div>
+      </div>
+      <div class="g-info">
+        <div class="tags"><span>Хоррор</span><span>Охота</span><span>Unity 3D</span><span>Windows</span></div>
+        <h3>Лесная полянка</h3>
+        <p class="tagline">Ты Леший. Природа мстит, и ты её гнев.</p>
+        <p>Люди рубят вековые дубы, оставляют мусор и жгут костры на священных полянах. Вы древний дух леса, который больше не хочет просто пугать. Вы охотитесь на незваных гостей и используете их силу, чтобы поддерживать <strong>Огонь Жизни</strong>, ритуал, который не даёт лесу умереть.</p>
+        <ul class="feats">
+          <li><b>Охота.</b> Путники нужны, чтобы Огонь не погас. Пока он горит, лес жив.</li>
+          <li><b>Тёмный лес.</b> Деревья здесь союзники, а путники просто ресурс.</li>
+          <li><b>Паника.</b> Бизнесмены, туристы и полицейские бегут и прячутся, но от Лешего не скрыться.</li>
+        </ul>
+        <p class="note">Описание взято со страницы игры на геймджеме.</p>
+        <div class="card-cta">
+          <button class="btn btn-primary" type="button" data-similar="Лесная полянка">Заказать похожую</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Зарплата -->
+    <article class="game-card" id="zarplata" data-genre="office">
+      <div class="gallery" data-gallery>
+        <button class="g-main" type="button" data-lightbox aria-label="Увеличить кадр игры Зарплата">
+          <img src="assets/games/zarplata-1.webp" alt="Зарплата: главное меню на фоне тёмного офиса с компьютерами" data-main-img>
+          <span class="g-caption" data-caption>Главное меню</span>
+        </button>
+        <div class="g-thumbs" role="group" aria-label="Кадры игры Зарплата">
+          <button type="button" class="is-active" data-full="assets/games/zarplata-1.webp" data-alt="Зарплата: главное меню, офис" data-cap="Главное меню"><img src="assets/games/zarplata-1.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/zarplata-2.webp" data-alt="Зарплата: герой в зелёной кепке крупным планом" data-cap="Герой в зелёной кепке"><img src="assets/games/zarplata-2.webp" alt="" loading="lazy"></button>
+          <button type="button" data-full="assets/games/zarplata-3.webp" data-alt="Зарплата: геймплей, задание отнести бумагу" data-cap="«Бумага у тебя. Отнеси её!»"><img src="assets/games/zarplata-3.webp" alt="" loading="lazy"></button>
+        </div>
+      </div>
+      <div class="g-info">
+        <div class="tags"><span>Офис</span><span>Unity 3D</span><span>Windows</span></div>
+        <h3>Зарплата</h3>
+        <p class="tagline">Бумага у тебя. Отнеси её, и получишь свои рубли.</p>
+        <p>Офисный человечек в зелёной кепке начинает смену с нулём рублей на счётчике. Задание всегда на экране: несите документы по оливковым коридорам, и зарплата появится.</p>
+        <ul class="feats">
+          <li><b>Понятная цель.</b> Задание сверху, счётчик рублей в углу.</li>
+          <li><b>Офис.</b> Столы, мониторы, доска объявлений и приглушённый свет.</li>
+          <li><b>Герой.</b> Человечек-капсула с большим носом и кепкой.</li>
+        </ul>
+        <p class="controls">Меню: Играть, Разработчики, Выйти.</p>
+        <p class="note">Страницу этой игры на itch.io по названию найти не удалось, описание собрано по кадрам сборки. Пришлите ссылку, и я её добавлю.</p>
+        <div class="card-cta">
+          <button class="btn btn-primary" type="button" data-similar="Зарплата">Заказать похожую</button>
+        </div>
+      </div>
+    </article>
+
+    <p class="empty-filter" id="emptyFilter" hidden>В этой категории пока нет игр.</p>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Что могу сделать</h2>
+      <p>Цена и сроки зависят от задачи. Назову их после короткого разговора.</p>
+    </div>
+    <div class="quest-grid">
+      <button class="quest" type="button" data-service="Игровой прототип">
+        <h3>Игровой прототип</h3>
+        <p>Проверка идеи: одна механика, один уровень, ощущение настоящей игры за несколько дней.</p>
+        <span class="quest-go">Выбрать</span>
+      </button>
+      <button class="quest" type="button" data-service="Небольшая 3D-игра">
+        <h3>Небольшая 3D-игра</h3>
+        <p>Маленький полноценный мир: меню, геймплей, настройки и сборка для Windows.</p>
+        <span class="quest-go">Выбрать</span>
+      </button>
+      <button class="quest" type="button" data-service="Доработка Unity-проекта">
+        <h3>Доработка проекта</h3>
+        <p>Есть начатая игра на Unity? Помогу с механикой, сценой, интерфейсом или доведу до сборки.</p>
+        <span class="quest-go">Выбрать</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Как работаем</h2>
+    </div>
+    <ol class="steps">
+      <li><span>1</span><div><strong>Расскажете идею</strong><p>Своими словами, документ не нужен.</p></div></li>
+      <li><span>2</span><div><strong>Выбираем формат</strong><p>Прототип, игра или доработка.</p></div></li>
+      <li><span>3</span><div><strong>Согласуем план</strong><p>Этапы, сроки и стоимость.</p></div></li>
+      <li><span>4</span><div><strong>Получаете сборку</strong><p>Готовая игра для Windows.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="order" id="order">
+  <div class="wrap order-in">
+    <div class="order-copy">
+      <h2>Оставить заявку</h2>
+      <p>Заполните форму, и сайт соберёт текст заявки. Его можно скопировать или открыть в почте. Ничего не отправляется автоматически.</p>
+      <p class="contacts">Или напишите напрямую: <a href="mailto:egorlehanov600@gmail.com">egorlehanov600@gmail.com</a> · Telegram <a href="https://t.me/GGogoweru" target="_blank" rel="noopener">@GGogoweru</a></p>
+      <ul class="perks">
+        <li>Отвечаю лично</li>
+        <li>Можно взять одну из игр за основу и поменять детали</li>
+        <li>Идея пока сырая? Это нормально</li>
+      </ul>
+    </div>
+    <div class="form-card">
+      <form id="orderForm" novalidate>
+        <div class="f-grid">
+          <label>Имя *<input name="name" type="text" autocomplete="name" placeholder="Как к вам обращаться" maxlength="100" required></label>
+          <label>Контакт для ответа *<input name="contact" type="text" autocomplete="email" placeholder="Email или Telegram" maxlength="160" required></label>
+          <label>Что нужно? *<select name="type" id="serviceType" required><option value="" disabled selected>Выберите вариант</option><option>Игровой прототип</option><option>Небольшая 3D-игра</option><option>Доработка Unity-проекта</option><option>Пока не знаю</option></select></label>
+          <label>Похожая игра<select name="reference" id="referenceGame"><option value="">Не выбрано</option><option>Крутой Поворот</option><option>BORIK: курьер пустыни</option><option>Ферма</option><option>Лесная полянка</option><option>Зарплата</option></select></label>
+          <label class="full">Опишите проект *<textarea name="idea" rows="5" minlength="12" maxlength="3000" placeholder="Жанр, идея, механики, платформа, примеры, если есть" required></textarea></label>
+          <label>Бюджет<input name="budget" type="text" placeholder="Если уже знаете" maxlength="100"></label>
+          <label>Срок<input name="deadline" type="text" placeholder="Если есть дедлайн" maxlength="100"></label>
+        </div>
+        <button class="btn btn-primary btn-submit" type="submit">Сформировать заявку</button>
+        <p class="f-note">* Обязательные поля. Заявка формируется в браузере и никуда не отправляется.</p>
+      </form>
+
+      <div class="draft" id="draftResult" hidden>
+        <p class="draft-title">Заявка готова</p>
+        <p class="draft-sub">Скопируйте текст или откройте его в почте.</p>
+        <textarea id="draftText" class="draft-text" readonly aria-label="Готовый текст заявки"></textarea>
+        <div class="draft-btns">
+          <button type="button" id="copyDraft" class="btn btn-primary btn-small">Скопировать</button>
+          <button type="button" id="emailDraft" class="btn btn-ghost btn-small">Открыть письмо</button>
+        </div>
+        <p class="draft-status" id="draftStatus" role="status" aria-live="polite"></p>
+        <p class="f-note" id="draftContactNote">Письмо уйдёт на egorlehanov600@gmail.com.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-in">
+    <span class="brand">gogoweru<span>.</span></span>
+    <p>Игры на Unity для Windows · <a href="mailto:egorlehanov600@gmail.com">egorlehanov600@gmail.com</a> · <a href="https://t.me/GGogoweru" target="_blank" rel="noopener">@GGogoweru</a></p>
+    <a href="#top">Наверх</a>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© <span id="year">2026</span> gogoweru</span>
+    <span>Все скриншоты сняты из сборок игр</span>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Увеличенный скриншот">
+  <button class="lb-close" type="button" id="lbClose" aria-label="Закрыть">×</button>
+  <img id="lbImg" src="assets/games/krutoi-1.webp" alt="">
+  <p id="lbCap"></p>
+</dialog>
+</body>
+</html>
